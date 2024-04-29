@@ -1,0 +1,110 @@
+body{
+    background-image: url(./images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%) ;
+}
+.whole-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+.heading{
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+}
+.description{
+    color: white;
+    font-weight: 300;
+    font-size: 18px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+}
+.left{
+    margin-right: 40px;
+}
+.login{
+    height: 430px;
+    width: 460px;
+    background-color: white;
+    border-radius: 5px;
+}
+#first{
+    width: 350px;
+    height: 40px;
+    border-radius: 4px;
+    margin-top: 45px;
+    margin-left: 45px;
+    color: hsl(246, 25%, 77%);
+    border-width: 1px;
+}
+#last{
+    width: 350px;
+    height: 40px;
+    border-radius: 4px;
+    margin-top: 25px;
+    margin-left: 45px;
+    color: hsl(246, 25%, 77%);
+    border-width: 1px;
+}
+#mail{
+    width: 350px;
+    height: 40px;
+    border-radius: 4px;
+    margin-top: 25px;
+    margin-left: 45px;
+    color: hsl(246, 25%, 77%);
+    border-width: 1px;
+}
+#pass{
+    width: 350px;
+    height: 40px;
+    border-radius: 4px;
+    margin-top: 25px;
+    margin-left: 45px;
+    color: black;
+    border-width: 1px;
+}
+button{
+    width: 350px;
+    height: 40px;
+    border-radius: 4px;
+    margin-top: 25px;
+    margin-left: 45px;
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    border-width: 0px;
+    cursor: pointer; 
+}
+.trial{
+    height: 60px;
+    width: 460px;
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 20px;
+   
+}
+.try{
+    padding-top: 20px;
+    padding-left: 110px;
+    font-weight: 600;
+    font-size: 16px;
+}
+span{
+    color: white;
+}
+p{
+    color: hsl(246, 25%, 77%);
+    font-size: 12px;
+    padding-left: 65px;
+}
+.red{
+    color: red;
+}
+::placeholder{
+    padding-left: 20px;
+    color:hsl(246, 25%, 77%);
+}
